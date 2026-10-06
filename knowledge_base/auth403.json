@@ -1,0 +1,11 @@
+{
+  "id": "auth403",
+  "category": "authorization",
+  "title": "403 Forbidden: role and permission checks",
+  "keywords": "403 forbidden access denied permission role authorization logged in cannot access admin dashboard",
+  "steps": [
+    "Confirm which resource and account role are affected.",
+    "Ask an administrator to verify the required role and resource permissions.",
+    "Do not bypass authorization or grant broad administrator access."
+  ]
+}

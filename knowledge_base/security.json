@@ -1,0 +1,11 @@
+{
+  "id": "security",
+  "category": "security",
+  "title": "Possible credential exposure",
+  "keywords": "leaked token exposed secret hacked account breach stolen password security incident",
+  "steps": [
+    "Stop sharing the exposed credential.",
+    "Contact the security owner immediately using the incident process.",
+    "Have the authorized owner revoke or rotate affected credentials and review access logs."
+  ]
+}

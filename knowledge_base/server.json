@@ -1,0 +1,11 @@
+{
+  "id": "server",
+  "category": "server",
+  "title": "500 / 502 / 503 server errors",
+  "keywords": "500 502 503 internal server error bad gateway service unavailable outage",
+  "steps": [
+    "Check the status page and affected scope.",
+    "Collect redacted request IDs and timestamps.",
+    "Escalate to the service owner; avoid repeated retries for non-idempotent operations."
+  ]
+}

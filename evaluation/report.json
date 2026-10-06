@@ -1,0 +1,11 @@
+{
+  "dataset": "Hand-authored synthetic regression set; not an independent holdout",
+  "mode": "retrieval",
+  "n": 35,
+  "dataset_sha256": "0681cbd3a12182fba4dd26946bc54bf8d9645873f5016bd0904110cf3baefbdb",
+  "category_accuracy": 1.0,
+  "retrieval_recall_at_3": 1.0,
+  "escalation_accuracy": 1.0,
+  "escalation_recall": 1.0,
+  "failures": []
+}

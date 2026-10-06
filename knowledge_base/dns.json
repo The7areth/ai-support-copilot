@@ -1,0 +1,11 @@
+{
+  "id": "dns",
+  "category": "networking",
+  "title": "DNS resolution failure",
+  "keywords": "DNS hostname domain resolve resolution NXDOMAIN server not found name lookup",
+  "steps": [
+    "Confirm the hostname is spelled correctly.",
+    "Compare DNS resolution on an approved alternative network.",
+    "Collect the hostname, timestamp and resolver error for the network team."
+  ]
+}

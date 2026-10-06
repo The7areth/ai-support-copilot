@@ -1,0 +1,11 @@
+{
+  "id": "auth401",
+  "category": "authentication",
+  "title": "401 Unauthorized: expired login session",
+  "keywords": "401 unauthorized invalid token expired session login sign in password credentials authentication",
+  "steps": [
+    "Check whether the session or access token has expired.",
+    "Sign in again through the official login page.",
+    "If it persists, share a redacted request ID with support; never send passwords or tokens."
+  ]
+}

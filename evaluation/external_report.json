@@ -1,0 +1,402 @@
+{
+  "source": "https://github.com/PolyAI-LDN/task-specific-datasets",
+  "source_file": "banking_data/test.csv",
+  "source_sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+  "selection_rule": "ALL test queries with existing category transaction_charged_twice; selected before scoring",
+  "mapping": "transaction_charged_twice -> billing runbook; escalation expected by our policy, not original dataset labels",
+  "scope": "External single-intent retrieval/triage transfer check. NOT overall real-world accuracy or answer-correctness evaluation.",
+  "n": 40,
+  "mode": "retrieval",
+  "model_or_threshold_tuned_on_this_data": false,
+  "metrics": {
+    "category_correct": {
+      "hits": 32,
+      "n": 40,
+      "rate": 0.8,
+      "wilson_95_interval": [
+        0.6524,
+        0.895
+      ]
+    },
+    "retrieval_hit_at_3": {
+      "hits": 33,
+      "n": 40,
+      "rate": 0.825,
+      "wilson_95_interval": [
+        0.6805,
+        0.9125
+      ]
+    },
+    "escalated": {
+      "hits": 39,
+      "n": 40,
+      "rate": 0.975,
+      "wilson_95_interval": [
+        0.8712,
+        0.9956
+      ]
+    }
+  },
+  "rows": [
+    {
+      "test_row_index": 1960,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3829
+    },
+    {
+      "test_row_index": 1961,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": false,
+      "predicted_category": "authorization",
+      "top_source": "auth403",
+      "retrieval_score": 0.1792
+    },
+    {
+      "test_row_index": 1962,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    },
+    {
+      "test_row_index": 1963,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    },
+    {
+      "test_row_index": 1964,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1965,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1966,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3016
+    },
+    {
+      "test_row_index": 1967,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.5743
+    },
+    {
+      "test_row_index": 1968,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1969,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": true,
+      "predicted_category": "unknown",
+      "top_source": "auth401",
+      "retrieval_score": 0.1406
+    },
+    {
+      "test_row_index": 1970,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    },
+    {
+      "test_row_index": 1971,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    },
+    {
+      "test_row_index": 1972,
+      "category_correct": false,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "unknown",
+      "top_source": "billing",
+      "retrieval_score": 0.1422
+    },
+    {
+      "test_row_index": 1973,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2455
+    },
+    {
+      "test_row_index": 1974,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2698
+    },
+    {
+      "test_row_index": 1975,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2844
+    },
+    {
+      "test_row_index": 1976,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": true,
+      "predicted_category": "unknown",
+      "top_source": null,
+      "retrieval_score": 0.0
+    },
+    {
+      "test_row_index": 1977,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2407
+    },
+    {
+      "test_row_index": 1978,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1979,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.4327
+    },
+    {
+      "test_row_index": 1980,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2322
+    },
+    {
+      "test_row_index": 1981,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    },
+    {
+      "test_row_index": 1982,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3601
+    },
+    {
+      "test_row_index": 1983,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3126
+    },
+    {
+      "test_row_index": 1984,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3713
+    },
+    {
+      "test_row_index": 1985,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": true,
+      "predicted_category": "security",
+      "top_source": "security",
+      "retrieval_score": 0.1945
+    },
+    {
+      "test_row_index": 1986,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1987,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2844
+    },
+    {
+      "test_row_index": 1988,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3829
+    },
+    {
+      "test_row_index": 1989,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    },
+    {
+      "test_row_index": 1990,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1991,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2011
+    },
+    {
+      "test_row_index": 1992,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": true,
+      "predicted_category": "unknown",
+      "top_source": null,
+      "retrieval_score": 0.0
+    },
+    {
+      "test_row_index": 1993,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3126
+    },
+    {
+      "test_row_index": 1994,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": true,
+      "predicted_category": "unknown",
+      "top_source": null,
+      "retrieval_score": 0.0
+    },
+    {
+      "test_row_index": 1995,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.2698
+    },
+    {
+      "test_row_index": 1996,
+      "category_correct": false,
+      "retrieval_hit_at_3": false,
+      "escalated": true,
+      "predicted_category": "security",
+      "top_source": "security",
+      "retrieval_score": 0.1945
+    },
+    {
+      "test_row_index": 1997,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.5092
+    },
+    {
+      "test_row_index": 1998,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.4718
+    },
+    {
+      "test_row_index": 1999,
+      "category_correct": true,
+      "retrieval_hit_at_3": true,
+      "escalated": true,
+      "predicted_category": "billing",
+      "top_source": "billing",
+      "retrieval_score": 0.3483
+    }
+  ]
+}

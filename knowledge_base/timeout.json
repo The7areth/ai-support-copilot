@@ -1,0 +1,11 @@
+{
+  "id": "timeout",
+  "category": "networking",
+  "title": "Connection timeout",
+  "keywords": "connection timeout timed out unreachable network firewall port connectivity",
+  "steps": [
+    "Check service status and whether other users are affected.",
+    "Verify the documented host and port with the network team.",
+    "Collect timestamps and request IDs; do not disable firewall protections."
+  ]
+}

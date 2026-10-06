@@ -1,0 +1,11 @@
+{
+  "id": "tls",
+  "category": "security",
+  "title": "TLS certificate validation failure",
+  "keywords": "TLS SSL certificate expired handshake HTTPS certificate verify failed",
+  "steps": [
+    "Check the device clock and certificate hostname.",
+    "Ask the service owner to inspect certificate expiry and chain.",
+    "Do not disable TLS certificate verification."
+  ]
+}

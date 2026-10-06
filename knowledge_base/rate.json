@@ -1,0 +1,11 @@
+{
+  "id": "rate",
+  "category": "api",
+  "title": "429 Too Many Requests",
+  "keywords": "429 rate limit too many requests throttled quota retry",
+  "steps": [
+    "Inspect the Retry-After header if present.",
+    "Use bounded exponential backoff with jitter.",
+    "Reduce request concurrency and inspect the documented quota."
+  ]
+}

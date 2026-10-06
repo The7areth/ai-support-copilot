@@ -1,0 +1,212 @@
+[
+  {
+    "text": "Login returns 401 unauthorized",
+    "source": "auth401",
+    "category": "authentication",
+    "escalate": false
+  },
+  {
+    "text": "My session token expired",
+    "source": "auth401",
+    "category": "authentication",
+    "escalate": false
+  },
+  {
+    "text": "Sign in fails with invalid credentials",
+    "source": "auth401",
+    "category": "authentication",
+    "escalate": false
+  },
+  {
+    "text": "403 forbidden opening admin dashboard",
+    "source": "auth403",
+    "category": "authorization",
+    "escalate": false
+  },
+  {
+    "text": "Logged in but access denied to reports",
+    "source": "auth403",
+    "category": "authorization",
+    "escalate": false
+  },
+  {
+    "text": "My role has no permission for this resource",
+    "source": "auth403",
+    "category": "authorization",
+    "escalate": false
+  },
+  {
+    "text": "DNS returns NXDOMAIN",
+    "source": "dns",
+    "category": "networking",
+    "escalate": false
+  },
+  {
+    "text": "Hostname does not resolve",
+    "source": "dns",
+    "category": "networking",
+    "escalate": false
+  },
+  {
+    "text": "Domain name lookup fails",
+    "source": "dns",
+    "category": "networking",
+    "escalate": false
+  },
+  {
+    "text": "Connection to service timed out",
+    "source": "timeout",
+    "category": "networking",
+    "escalate": false
+  },
+  {
+    "text": "Network host unreachable on port 443",
+    "source": "timeout",
+    "category": "networking",
+    "escalate": false
+  },
+  {
+    "text": "Firewall connection timeout",
+    "source": "timeout",
+    "category": "networking",
+    "escalate": false
+  },
+  {
+    "text": "SQL connection pool exhausted",
+    "source": "database",
+    "category": "database",
+    "escalate": true
+  },
+  {
+    "text": "Postgres too many connections",
+    "source": "database",
+    "category": "database",
+    "escalate": true
+  },
+  {
+    "text": "Database query slow and pool full",
+    "source": "database",
+    "category": "database",
+    "escalate": true
+  },
+  {
+    "text": "API returns 429",
+    "source": "rate",
+    "category": "api",
+    "escalate": false
+  },
+  {
+    "text": "Too many requests quota exceeded",
+    "source": "rate",
+    "category": "api",
+    "escalate": false
+  },
+  {
+    "text": "Requests throttled by rate limit",
+    "source": "rate",
+    "category": "api",
+    "escalate": false
+  },
+  {
+    "text": "500 internal server error",
+    "source": "server",
+    "category": "server",
+    "escalate": true
+  },
+  {
+    "text": "502 bad gateway on service",
+    "source": "server",
+    "category": "server",
+    "escalate": true
+  },
+  {
+    "text": "503 service unavailable",
+    "source": "server",
+    "category": "server",
+    "escalate": true
+  },
+  {
+    "text": "TLS certificate expired",
+    "source": "tls",
+    "category": "security",
+    "escalate": false
+  },
+  {
+    "text": "HTTPS certificate verify failed",
+    "source": "tls",
+    "category": "security",
+    "escalate": false
+  },
+  {
+    "text": "SSL handshake certificate hostname wrong",
+    "source": "tls",
+    "category": "security",
+    "escalate": false
+  },
+  {
+    "text": "Payment charged twice",
+    "source": "billing",
+    "category": "billing",
+    "escalate": true
+  },
+  {
+    "text": "Duplicate charge on invoice",
+    "source": "billing",
+    "category": "billing",
+    "escalate": true
+  },
+  {
+    "text": "Card refund for duplicate billing",
+    "source": "billing",
+    "category": "billing",
+    "escalate": true
+  },
+  {
+    "text": "Someone leaked our token",
+    "source": "security",
+    "category": "security",
+    "escalate": true
+  },
+  {
+    "text": "My account was hacked",
+    "source": "security",
+    "category": "security",
+    "escalate": true
+  },
+  {
+    "text": "Secret exposed in public logs",
+    "source": "security",
+    "category": "security",
+    "escalate": true
+  },
+  {
+    "text": "How do I bake a cake?",
+    "source": null,
+    "category": "unknown",
+    "escalate": true
+  },
+  {
+    "text": "What is the weather tomorrow?",
+    "source": null,
+    "category": "unknown",
+    "escalate": true
+  },
+  {
+    "text": "Please help me with this strange thing",
+    "source": null,
+    "category": "unknown",
+    "escalate": true
+  },
+  {
+    "text": "zzzxxyyqqq",
+    "source": null,
+    "category": "unknown",
+    "escalate": true
+  },
+  {
+    "text": "Recommend a movie tonight",
+    "source": null,
+    "category": "unknown",
+    "escalate": true
+  }
+]

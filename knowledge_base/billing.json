@@ -1,0 +1,11 @@
+{
+  "id": "billing",
+  "category": "billing",
+  "title": "Duplicate payment investigation",
+  "keywords": "payment charged twice duplicate charge billing invoice refund card",
+  "steps": [
+    "Check whether the entries are pending authorizations or settled charges.",
+    "Collect transaction references without full card details.",
+    "Escalate to billing for reconciliation; do not promise or issue a refund."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "database",
+  "category": "database",
+  "title": "Database connection pool exhaustion",
+  "keywords": "database SQL connection pool exhausted too many connections query slow postgres",
+  "steps": [
+    "Check database health and connection pool utilization.",
+    "Look for long-running queries and unclosed connections.",
+    "Escalate to the database owner before changing limits or terminating queries."
+  ]
+}
